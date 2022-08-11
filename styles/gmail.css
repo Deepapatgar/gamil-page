@@ -1,0 +1,672 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 592px;
+
+}
+
+.container1 {
+
+    flex: 1;
+    flex-direction: column;
+    background-color: #f6f9ff;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    height: 65px;
+    width: 42px;
+    position: relative;
+    left: 16px;
+    top: -9px;
+
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    position: relative;
+    left: 56px;
+    top: -53px;
+}
+
+.compose {
+    display: flex;
+    height: 56px;
+    width: 141px;
+    position: relative;
+    top: -25.5px;
+    left: 0px;
+    border-radius: 15px;
+    background-color: #c2e7ff;
+    border: 1px solid white;
+
+}
+
+.text {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 0.895rem;
+    letter-spacing: normal;
+    font-weight: 500;
+    position: relative;
+    top: 1px;
+    left: 55px;
+    color: black;
+    line-height: 16px;
+}
+
+.inbox {
+    display: flex;
+    height: 31px;
+    width: 250px;
+    position: relative;
+    top: -12px;
+    left: -19px;
+    border-radius: 19px;
+    background-color: #cfe3ffe6;
+    border: 1px solid white;
+
+}
+
+.text2 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.875rem;
+    font-weight: 550;
+    position: relative;
+    top: -8px;
+    left: 74px;
+    color: black;
+    line-height: 9px;
+}
+
+.starred {
+    display: flex;
+    height: 31px;
+    width: 250px;
+    position: relative;
+    top: -11px;
+    left: -18px;
+
+
+}
+
+.text3 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.86rem;
+    font-weight: 100;
+    position: relative;
+    top: -7px;
+    left: 74px;
+    color: black;
+    line-height: 9px;
+}
+
+.snoozed {
+    display: flex;
+    height: 31px;
+    width: 250px;
+    position: relative;
+    top: -10px;
+    left: -18px;
+
+
+}
+
+.text4 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.86rem;
+    font-weight: 100;
+    position: relative;
+    top: -7px;
+    left: 74px;
+    color: black;
+    line-height: 9px;
+}
+
+
+
+.sent {
+    display: flex;
+    height: 31px;
+    width: 250px;
+    position: relative;
+    top: -9px;
+    left: -18px;
+
+}
+
+.text6 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.86rem;
+    font-weight: 200;
+    position: relative;
+    top: -7px;
+    left: 74px;
+    color: black;
+    line-height: 9px;
+}
+
+.drafts {
+    display: flex;
+    height: 31px;
+    width: 250px;
+    position: relative;
+    top: -8px;
+    left: -19px;
+
+
+}
+
+.text7 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.86rem;
+    font-weight: 500;
+    position: relative;
+    top: -7px;
+    left: 74px;
+    color: black;
+    line-height: 9px;
+}
+
+.more {
+    display: flex;
+    height: 31px;
+    width: 250px;
+    position: relative;
+    top: -9px;
+    left: -18px;
+
+
+}
+
+.text9 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.890rem;
+    font-weight: 200;
+    position: relative;
+    top: -10px;
+    left: 74px;
+    color: black;
+
+}
+
+.container2 {
+
+    flex: 18;
+}
+
+.header {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    position: relative;
+    height: 101px;
+    top: -44px;
+    left: -2px;
+    background-color: #f6f9ff;
+}
+
+.submit-button {
+    background-color: #a2ccfd24;
+    border: 1px solid #f8f9fa;
+    border-radius: 6px;
+    color: #3c4043;
+    justify-content: left;
+    font-family: Arial, sans-serif;
+    position: relative;
+    width: 724px;
+    height: 50px;
+    left: -3px;
+    top: 44px;
+}
+
+.search {
+    position: absolute;
+    left: 55px;
+    top: 47px;
+    overflow: hidden;
+    display: block;
+    font: normal 16px Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #666C74;
+}
+
+.icon {
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+    top: 30px;
+    right: 713px;
+}
+
+.icon2 {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    width: 14px;
+    line-height: 33px;
+    position: relative;
+    top: 30px;
+    left: -77px;
+}
+
+.icon3 {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    width: 14px;
+    line-height: 33px;
+    position: relative;
+    top: 30px;
+    left: 66px;
+
+
+}
+
+.icon4 {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px; 
+    width: 14px;
+    line-height: 33px;
+    position: relative;
+    top: 30px;
+    left: 92px;
+    color: #5f6368;
+}
+
+.icon5 {
+    display: inline-block;
+    fill: currentColor;
+    height: 18px;
+    width: 24px;
+    line-height: 30px;
+    position: relative;
+    top: 30px;
+    left: 118px;
+    color: #5f6368;
+}
+
+.main-body {
+    display: flex;
+
+}
+
+.main-header {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+}
+
+.primary {
+    display: flex;
+    display: flex;
+    height: 53px;
+    width: 237px;
+    position: relative;
+    top: 3px;
+    left: -5px;
+    border-radius: 6px;
+    border: 1px solid white;
+    
+}
+
+.maintext1 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.86rem;
+    font-weight: 500;
+    position: relative;
+    top: 2px;
+    left: 52px;
+    color: #273aea;
+    line-height: 9px;
+}
+
+.social {
+    display: flex;
+    height: 53px;
+    width: 237px;
+    position: relative;
+    top: 2px;
+    left: -6px;
+    border-radius: 6px;
+    border: 1px solid white;
+
+
+}
+
+.maintext2 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.86rem;
+    font-weight: 500;
+    position: relative;
+    top: 1px;
+    left: 67px;
+    color: black;
+    line-height: 9px;
+    color: #5f6368;
+
+}
+
+.promotions {
+    display: flex;
+    height: 53px;
+    width: 237px;
+    position: relative;
+    top: 2px;
+    left: -7px;
+    
+    
+}
+
+.maintext3 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.86rem;
+    font-weight: 500;
+    position: relative;
+    top: 3px;
+    left: 82px;
+    color: black;
+    line-height: 9px;
+    color: #5f6368;
+
+}
+
+.updates {
+    display: flex;
+    height: 53px;
+    width: 237px;
+    position: relative;
+    top: 2px;
+    left: -9px;
+    border-radius: 6px;
+    background-color: #f3f3f3;
+    border: 1px solid white;
+}
+
+.maintext4 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.86rem;
+    font-weight: 500;
+    position: relative;
+    top: 3px;
+    left: 52px;
+    color: black;
+    line-height: 9px;
+}
+
+.forums {
+    display: flex;
+    height: 53px;
+    width: 237px;
+    position: relative;
+    top: 2px;
+    left: -10px;
+    border-radius: 6px;
+    background-color: #f3f3f3;
+    border: 1px solid white;
+
+}
+
+.maintext5 {
+
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 0.86rem;
+    font-weight: 500;
+    position: relative;
+    top: 3px;
+    left: 52px;
+    color: black;
+    line-height: 9px;
+}
+
+.container3 {
+
+    flex: 1;
+    background-color: #f6f9ff;
+
+}
+
+.rlogo {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #ea6535ed;
+    width: 32px;
+    height: 32px;
+    color: #f8f9fa;
+    text-align: center;
+    line-height: 32px;
+    position: relative;
+    top: 8px;
+    left: 11px;
+}
+
+.calender {
+    display: flex;
+    flex: 1;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 24.5px;
+    top: 42px;
+}
+
+.keep {
+    display: flex;
+    flex: 1;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 24.5px;
+    top: 78px;
+}
+
+.tasks {
+    display: flex;
+    flex: 1;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 24.5px;
+    top: 114px;
+}
+
+.contacts {
+    display: flex;
+    flex: 1;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 24.5px;
+    top: 150px;
+}
+
+.add {
+    display: flex;
+    flex: 1;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 25px;
+    top: 220px;
+}
+
+.image {
+    position: relative;
+    top: 17px;
+    left: -46px;
+}
+
+.image1 {
+    position: relative;
+    top: 5px;
+    left: -1px;
+}
+
+.image2 {
+    position: relative;
+    top: 5px;
+    left: -9px;
+}
+
+.image3 {
+    position: relative;
+    top: 5px;
+    left: -18px;
+}
+
+.image4 {
+    position: relative;
+    top: 5px;
+    left: -22px;
+}
+
+.image5 {
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+
+.image6 {
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+.image7 {
+    position: relative;
+    top: 6px;
+    left: -33px;
+}
+
+.image8 {
+    position: relative;
+    top: 7px;
+    left: 4px;
+}
+
+.himage {
+    position: relative;
+    top: 16px;
+    left: -31px
+}
+
+.himage2 {
+    position: relative;
+    top: 16px;
+    left: -7px;
+    
+}
+
+.himage3 {
+    position: relative;
+    top: 16px;
+    left: -23px;
+
+}
+
+.himage4 {
+    position: relative;
+    top: 16px;
+    left: -35px;
+}
+
+.himage5 {
+    position: relative;
+    top: 16px;
+    left: -31px;
+}
+
+.mimage {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -37px;
+    left: -49.5px;
+}
+
+.mimage2 {
+    display: flex;
+    position: relative;
+    top: -37px;
+    left: -49.5px
+}
+
+.mimage3 {
+    display: flex;
+    position: relative;
+    top: -37px;
+    left: -29.5px;
+}
+
+.mimage4 {
+    display: flex;
+    position: relative;
+    top: -37px;
+    left: -9.5px;
+}
+
+.footer {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    position: relative;
+    height: 73px;
+    top: 231px;
+    left: 0px;
+    width: 1208px;
+
+}
+
+.data {
+    display: flex;
+    position: relative;
+    top: 34px;
+    left: 12px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.data1 {
+    display: flex;
+    position: relative;
+    font-size: 12px;
+    top: 0px;
+    left: 164px;
+    margin: 1px 345px;
+    font-family: Arial, sans-serif;
+}
+
+.data2 {
+    display: flex;
+    position: relative;
+    top: 8px;
+    left: 107px;
+    margin: 1px 1044px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
